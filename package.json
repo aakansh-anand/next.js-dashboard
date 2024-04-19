@@ -3,6 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
     "seed": "node -r dotenv/config ./scripts/seed.js"
   },
@@ -13,7 +15,9 @@
     "@vercel/postgres": "^0.5.1",
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
+    "bun": "^1.1.4",
     "clsx": "^2.0.0",
+    "global": "^4.4.0",
     "next": "^14.0.2",
     "postcss": "8.4.31",
     "react": "18.2.0",
