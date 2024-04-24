@@ -1,7 +1,14 @@
+import { Metadata } from 'next';
+import CustomersTable from '@/app/ui/customers/table';
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+}
+
 function page() {
   return (
     <div>
-      <p>Customers Page</p>
+      Customers Page
     </div>
   )
 }
